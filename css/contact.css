@@ -1,0 +1,98 @@
+.contact-form {
+    width: 50%;
+    max-width: 350px;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 20px #000000b3;
+    font-family: Arial;
+    padding-top: 20px;
+    margin-top: 40px;
+}
+
+.contact-form h1 {
+    margin-top: 0;
+    font-size: 30px;
+}
+
+.txtb {
+    border: 1px solid gray;
+    margin: 8px 0;
+    padding: 6px 20px;
+    border-radius: 30px;
+    width: 230px;
+    height: 22px;
+}
+
+.txtb1 {
+    border: 1px solid gray;
+    margin: 8px 0;
+    padding: 8px 20px;
+    border-radius: 20px;
+    width: 230px;
+    height: 50px;
+}
+
+.txtb input,
+textarea {
+    width: 100%;
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+.txtb1 input,
+textarea {
+    width: 100%;
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+.txtb ::placeholder {
+    color: gray;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+.txtb1 ::placeholder {
+    color: gray;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+.btn1 {
+    background: #ff7200;
+    padding: 10px 5px;
+    cursor: pointer;
+    color: #fff;
+    width: 100%;
+    height: 40px;
+    margin-top: 8px;
+    font-size: 20px;
+    transition: 0.4s ease;
+    border: 1px solid #ff7200;
+    font-size: 15px;
+    font-family: Arial;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.btn1:hover {
+    background: #fff;
+    color: #000;
+}
+
+.btn1:focus {
+    outline: none;
+}
